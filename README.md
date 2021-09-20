@@ -1,6 +1,12 @@
 # invoice
 
 This application uses following database and tables.After creating database and tables we can add db details in config.php file,we can run the application.
+
+$dbHost     = 'localhost';
+$dbUsername = 'root';
+$dbPassword = '';
+$dbName     = 'invoice';
+
 First page is an order listing page.At the top of this page,there is a button for creating new invoice.After adding invoice details on this page,we can generate invoice by clicking on 'Generate Invoice' button.
 
 we can also import database by using provided invoice.sql file .
